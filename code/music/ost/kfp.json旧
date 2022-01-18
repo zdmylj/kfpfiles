@@ -1,0 +1,305 @@
+{
+	"cover":"Cover",
+	"album": {
+		"kfp1": {
+			"name": "Kung Fu Panda (Original Motion Picture Soundtrack)",
+			"cover": "Cover1",
+			"songs": [{
+					"index":1,
+					"title": "Hero",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "Let The Tournament Begin",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "Dragon Warrior Is Among Us",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "Tai Lung Escapes",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "Peach Tree Of Wisdom",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "Accu-Flashback",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "Impersonating Shifu",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "Sacred Pool Of Tears",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "Training Po",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "The Bridge",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "Shifu Faces Tai Lung",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "The Dragon Scroll",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "Po Vs Tai Lung",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "Dragon Warrior Rises",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "Panda Po",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "Oogway Ascends",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":1,
+					"title": "Kung Fu Fighting",
+					"author": "Cee-Lo Green & Jack Black"
+				}
+			]
+		},
+		"kfp2": {
+			"name": "Kung Fu Panda 2 (Music From The Motion Picture)",
+			"cover": "Cover2",
+			"songs": [{
+					"index":2,
+					"title": "Ancient China , Story Of Shen",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "Dumpling Warrior",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "Inner Peace",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "Musicians Village",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "Save Kung Fu",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "Daddy Issues",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "Stealth Mode",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "Gongmen Jail",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "Rickshaw Chase",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "Po And Shen , Face To Face",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "More Cannons!",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "Fireworks Factory",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "Po Finds The Truth",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "Invasion Begins",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "Zen Ball Master",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "My Fist Hungers For Justice",
+					"author": "Hans Zimmer & John Powell"
+				},
+				{
+					"index":2,
+					"title": "Dumpling Warrior Remix",
+					"author": "Hans Zimmer & John Powell"
+				}
+			]
+		},
+		"kfp3": {
+			"name": "Kung Fu Panda 3 (Music From The Motion Picture)",
+			"cover": "Cover3",
+			"songs": [{
+					"index":3,
+					"title": "Oogway's Legacy",
+					"author": "Hans Zimmer & Lang Lang"
+				},
+				{
+					"index":3,
+					"title": "Hungry for Lunch",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "The Power of Chi",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "The Arrival of Kai",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "A New Father",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "The Hall of Heroes",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "The Legend of Kai",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "The Panda Village",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "Mei Mei's Ribbon Dance",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "Jaded",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "How To Be a Panda",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "Portrait of Mom",
+					"author": "Hans Zimmer & Lang Lang"
+				},
+				{
+					"index":3,
+					"title": "Po Belongs",
+					"author": "Hans Zimmer & Lang Lang"
+				},
+				{
+					"index":3,
+					"title": "Kai is Closer",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "Two Fathers",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "The Battle of Legends",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "The Spirit Realm",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "The Dragon Warrior",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "Passing the Torch",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "Father and Son",
+					"author": "Hans Zimmer"
+				},
+				{
+					"index":3,
+					"title": "Kung Fu Fighting (Celebration Time)",
+					"author": "Shanghai Roxi Musical Studio Choirs & Metro Voices London"
+				},
+				{
+					"index":3,
+					"title": "Try",
+					"author": "Patrick Brasca & Jay Chou"
+				},
+				{
+					"index":3,
+					"title": "Kung Fu Fighting",
+					"author": "The Vamps"
+				}
+			]
+		}
+	}
+}

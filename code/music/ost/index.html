@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- <meta name="referrer" content="never"> -->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Expires" content="0">
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Cache-control" content="no-cache">
+		<meta http-equiv="Cache" content="no-cache">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css?ver=2.9" />
+		<link rel="icon" href="https://pan.xzit.top/d/123pan/kfpfiles/music/ost/favicon.ico"/>
+		<title>KFP OST Player</title>
+	</head>
+	<body>
+		<div class="app" id="app">
+			<div class="container">
+				<div class="main row">
+					<div class="col-xs-6">
+						<ul class="list-unstyled cover-name-ul">
+							<li v-for="item in coverList" class="cover-name-li">
+								<div class="cover-name">
+									<span v-cloak @click="getSongsAndCover(item.songs,item.name)">{{item.name}}</span>
+								</div>
+							</li>
+						</ul>
+						<div class="cover">
+							<img :src="coverUrl" alt="即将显示...">
+						</div>
+					</div>
+					<div class="col-xs-6">
+						<ul class="list-unstyled cover-song-ul">
+							<li v-for="(item,index) in songList" class="cover-song-li">
+								<div class="cover-song">
+									<span v-cloak :class="{'kfp1':kfp1,'kfp2':kfp2,'kfp3':kfp3}"
+										@click.self="getCoverUrlAndMusicUrl(item.title,index,item.index,item.author)">
+										<span
+											@click.self="getCoverUrlAndMusicUrl(item.title,index,item.index,item.author)">{{index+1}}.{{item.title}}</span>
+										<a :href="getDownloadUrl(item.title,index,item.index)" download
+											class="glyphicon glyphicon-download-alt"></a>
+									</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer">
+					<div class="info">
+						<div class="playinfo" v-cloak>
+							{{playinfo}}{{title}}
+						</div>
+						<div class="album" v-cloak>
+							{{album}}
+						</div>
+						<div class="author" v-cloak>
+							{{author}}	
+						</div>
+					</div>
+					<audio :src="musicUrl" autoplay controls @play="play" @pause="pause">
+						当前浏览器不支持audio
+					</audio>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/axios.min.js"></script>
+	<script src="js/index.js?ver=2.8" type="text/javascript" charset="utf-8"></script>
+</html>

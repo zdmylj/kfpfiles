@@ -1,0 +1,251 @@
+[v-cloak] {
+	display: none !important;
+}
+
+body {
+	background: no-repeat center center;
+	background-size: cover;
+	opacity: 0.9;
+	background-attachment: fixed;
+}
+.bg{
+	background-image: url('https://pan.xzit.top/d/123pan/kfpfiles/music/ost/bgs/bg.jpg');
+}
+.bg1{
+	background-image: url('https://pan.xzit.top/d/123pan/kfpfiles/music/ost/bgs/bg1.jpg');
+}
+.bg2{
+	background-image: url('https://pan.xzit.top/d/123pan/kfpfiles/music/ost/bgs/bg2.jpg');
+}
+.bg3{
+	background-image: url('https://pan.xzit.top/d/123pan/kfpfiles/music/ost/bgs/bg3.jpg');
+}
+/* 
+audio {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+.app {
+	position: relative;
+	height: 713px;
+}
+
+.cover {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.cover img {
+	width: 100%;
+}
+
+@media screen and (max-width:450px) {
+	.cover {
+		width: 100%;
+	}
+}
+
+@media screen and (min-width:450px) and (max-width:1000px) {
+	.cover {
+		width: 70%;
+	}
+}
+
+@media screen and (min-width:1000px) {
+	.cover {
+		width: 35%;
+	}
+} */
+.container {
+	margin-bottom: 14%;
+}
+
+/* 专辑 */
+.cover-name {
+	width: 77%;
+	margin-top: 8px;
+	color: #fff;
+}
+
+.cover-name span {
+	cursor: pointer;
+	display: block;
+	padding: 11px;
+	border-radius: 5px;
+}
+
+.cover-name-li:nth-child(1) .cover-name span {
+	background: linear-gradient(to left, #d84729, #b22527);
+}
+
+.cover-name-li:nth-child(2) .cover-name span {
+	background: linear-gradient(to left, #f7e943, #dd8f2b);
+}
+
+.cover-name-li:nth-child(3) .cover-name span {
+	background: linear-gradient(to left, #66b144, #06763c);
+}
+
+/* 专辑图片 */
+.cover {
+	width: 77%;
+	margin-top: 15px;
+}
+
+.cover img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+/* 播放控件 */
+.footer {
+	width: 90%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin: 0 5% 0 5%;
+}
+
+.footer audio {
+	width: 100%;
+}
+
+/* 歌曲列表 */
+.cover-song {
+	width: 100%;
+	margin-top: 3px;
+	color: #fff;
+}
+
+.cover-song>span {
+	cursor: pointer;
+	display: block;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.cover-song a {
+	float: right;
+	text-decoration: none;
+}
+
+.cover-song-ul {
+	margin-top: 5px;
+	width: 77%;
+	height: 582px;
+	overflow: auto;
+	float: right;
+}
+
+.kfp1 {
+	background: linear-gradient(to left, #d85e38, #b22527);
+}
+
+.kfp2 {
+	background: linear-gradient(to left, #f7e943, #dd8f2b);
+}
+
+.kfp3 {
+	background: linear-gradient(to left, #66b144, #06763c);
+}
+/* 播放信息 */
+.info{
+	background-color: #fff;
+	border-radius: 10px;
+	margin-bottom: 5px;
+	padding: 5px;
+	font-size: 14px;
+}
+@media screen and (max-width:450px) {
+	.cover-name {
+		width: 100%;
+		margin-top: 5px;
+	}
+
+	.cover {
+		width: 100%;
+	}
+
+	.cover-song-ul {
+		width: 100%;
+		font-size: 12px;
+		height: 418px;
+	}
+
+	.cover-song>span {
+		min-height: 38px;
+	}
+
+	.col-xs-6 {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+}
+
+@media screen and (min-width:450px) and (max-width:580px) {
+	.cover-name {
+		width: 100%;
+		margin-top: 5px;
+	}
+
+	.cover {
+		width: 100%;
+	}
+
+	.cover-song-ul {
+		width: 100%;
+		height: 404px;
+	}
+
+	.cover-song>span {
+		min-height: 38px;
+	}
+}
+
+@media screen and (min-width:580px) and (max-width:1000px) {
+	.cover-name {
+		width: 100%;
+		margin-top: 5px;
+	}
+
+	.cover {
+		width: 100%;
+	}
+
+	.cover-song-ul {
+		width: 100%;
+		height: 514px;
+	}
+
+	.cover-song>span {
+		min-height: 38px;
+	}
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px) {
+	.cover-name {
+		width: 100%;
+		margin-top: 5px;
+	}
+
+	.cover {
+		width: 100%;
+	}
+
+	.cover-song-ul {
+		width: 100%;
+		height: 602px;
+	}
+
+	.cover-song>span {
+		min-height: 38px;
+	}
+}
+@media screen and (height:568px) {
+	.container{
+		margin-bottom: 62%;
+	}
+}
